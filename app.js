@@ -13,7 +13,6 @@ const User = require('./models/user');
 
 const MONGODB_URI =
   'mongodb+srv://calle123:password1@cluster0.uhaip.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
-
 const app = express();
 const store = new MongoDBStore({
   uri: MONGODB_URI,
