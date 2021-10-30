@@ -1,4 +1,4 @@
-const Product = require('../models/product');
+const Product = require('../models/products');
 const Order = require('../models/order');
 
 exports.getProducts = (req, res, next) => {
